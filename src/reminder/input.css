@@ -1,0 +1,88 @@
+
+/* input */
+.inputform{
+    width:85%;
+    margin:40px auto;
+    display: flex;
+    justify-content:space-evenly;
+    border:1px solid red;
+    padding:30px 10px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.inputdiv label{
+    margin-right: 10px;
+}
+
+
+/* display list */
+
+.displaylist{
+    width:85%;
+    margin:50px auto;
+    border:1px solid black;
+    list-style: none;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   
+    /* justify-content: space-around; */
+}
+
+.displaylist li {
+    width:90%;
+    display: flex;
+    padding:5px 10px;
+    flex-direction:row;
+    margin-bottom: 10px;
+}
+/* .displaylist p{
+    width:100%;
+} */
+
+.displaylist li p:not(:first-child){
+    width:20%;
+}
+
+.displaylist li p:first-child{
+    width:8%;
+}
+
+
+.btn{
+    width:70px;
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 239);
+    border:none;
+    color:white;
+}
+
+.reminderbtn{
+    width:fit-content;
+    padding:6px 10px;
+}
+
+.completedtask{
+    background-color:#249f1b;
+    color: white;
+    border-radius: 10px;
+}
+
+.upcomingtask{
+    background-color:#FF6000;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* .displaylist li:nth-child(even) {
+    background-color: red;
+  }
+  
+.displaylist li:nth-child(odd) {
+    background-color: blue;
+  } */
+

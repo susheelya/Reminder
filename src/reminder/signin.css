@@ -1,0 +1,59 @@
+.loginform h3{
+    text-align: center;
+}
+
+
+.loginform{
+    /* border:1px solid black; */
+    width: 35%;
+    background-color: whitesmoke;
+    min-width: 320px;
+    max-width:350px;
+    padding:20px 40px;
+    margin:6rem auto;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+    border-radius: 10px;
+}
+
+.loginform label{
+    margin-bottom: 10px;
+}
+
+.loginform input:not(:last-child){
+    margin-bottom:10px;
+    height:20px;
+    border:1px solid black;
+    border-radius: 7px;
+}
+#btn{
+    width:70px;
+    margin:10px auto;
+    margin-top:20px;
+    padding:4px 8px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 239);
+    border:none;
+    color:white;
+}
+
+.logoutbtn{
+    position: relative;
+    left:90%;
+    margin-top:20px;
+}
+
+.displaybox{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+@media screen and (max-width: 768px){
+    .displaybox{
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+    }
+}
